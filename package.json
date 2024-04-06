@@ -1,0 +1,29 @@
+{
+  "name": "@khdev/utils",
+  "version": "0.0.1",
+  "description": "I'll add later.",
+  "main": "./src/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eka-team/eka-kit.git"
+  },
+  "author": "Eka Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eka-team/eka-kit/issues"
+  },
+  "homepage": "https://github.com/eka-team/eka-kit#readme",
+  "keywords": [
+    "eka-kit"
+  ],
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  }
+}
